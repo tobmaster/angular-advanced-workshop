@@ -4,7 +4,7 @@ import { HttpClientTestingModule, HttpTestingController } from '@angular/common/
 import { Book } from './book';
 import { BookDataService } from './book-data.service';
 
-describe('BookStaticDataService', () => {
+describe('BookDataService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [BookDataService],
